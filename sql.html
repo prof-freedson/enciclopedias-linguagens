@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa notion</title>
+    <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9fafa;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      color: #1e3a8a;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    h1 {
+      border-bottom: 3px solid #1e3a8a;
+      padding-bottom: 8px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      margin-top: 25px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    p b {
+      color: #0f172a;
+    }
+
+    p i {
+      color: #475569;
+    }
+
+    /* Estilização de timeline */
+    .timeline {
+      background: #fff;
+      border-left: 4px solid #1e3a8a;
+      padding-left: 20px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+
+    .timeline b {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #1e40af;
+    }
+
+    /* Estilização das seções vantagens/desvantagens/aplicações */
+    .section-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+    <h1> Breve Histórico </h1>
+    <p> A SQL, ou Linguagem de Consulta Estruturada, surgiu na década de 1970 com base no modelo relacional. Inicialmente desenvolvida pela IBM e conhecida como SEQUEL, foi posteriormente padronizada pelo ANSI e ISO, tornando-se a linguagem padrão para bancos de dados relacionais. Sua evolução contínua aprimorou a linguagem para atender às demandas do setor. </p><br>
+    <h2> Linha do tempo sql: </h2>
+    <div class="timeline">
+    <b>Década de 1970:</b> <br>
+Pesquisadores da IBM, Donald D. Chamberlin e Raymond F. Boyce, criaram a SQL com o objetivo de manipular e recuperar dados de bancos de dados relacionais. <br>
+<b>Nome Original:</b> <br>
+A linguagem era inicialmente chamada de SEQUEL (Structured English Query Language). <br>
+<b>Sistema R:</b> <br>
+O trabalho da IBM culminou no desenvolvimento do Sistema R, um protótipo de banco de dados relacional que utilizava a linguagem SQL. <br>
+<b>Padronização:</b> <br>
+Em 1986, o ANSI (American National Standards Institute) padronizou a linguagem, seguido pela ISO (International Organization for Standardization) em 1987. <br>
+<b>Evolução:</b> <br>
+A SQL passou por várias revisões e atualizações, incluindo SQL-92 (1992) e SQL:1999 (1999). <br>
+<b>SQL:1999:</b> <br>
+Introduziu expressões regulares, consultas recursivas, gatilhos, tipos de dados não escalares e características de orientação a objetos. <br>
+<b>SQL:2003:</b> <br>
+Adicionou características relacionadas a XML, sequências padronizadas e colunas de auto-geração. <br>
+<b>Uso Atual:</b> <br>
+A SQL é amplamente utilizada em diversos sistemas de gerenciamento de banco de dados, como MySQL, PostgreSQL e SQL Server. <br> <br>
+A SQL tornou-se uma ferramenta essencial para o gerenciamento de dados, permitindo a definição, recuperação, manipulação e controle de acesso a informações armazenadas em bancos de dados relacionais.</p><br>
+</div>
+<div class="section-container">
+    <h1> Vantagens </h1><br>
+    <p> <b>1. Facilidade de uso e aprendizado: </b>
+SQL possui uma sintaxe simples e intuitiva, tornando-a fácil de aprender e utilizar, mesmo para iniciantes. <br>
+ <b>2. Padrão da indústria: </b>
+Sendo a linguagem padrão para bancos de dados relacionais, o conhecimento em SQL é amplamente requisitado no mercado de trabalho. <br>
+ <b>3. Consultas complexas: </b>
+SQL permite a realização de consultas complexas e agregações de dados, facilitando a análise e extração de informações relevantes. <br>
+ <b>4. Integração com outras linguagens e sistemas: </b>
+SQL pode ser facilmente integrado com diversas linguagens de programação e sistemas, facilitando o desenvolvimento de aplicações.</p><br>
+</div>
+<div class="section-container">
+    <h1> Desvantagens </h1>
+    <p> <b>1. Complexidade para consultas complexas:</b>
+Embora SQL seja poderoso para consultas simples, consultas mais elaboradas, como junções múltiplas, subconsultas aninhadas e agregação de dados, podem se tornar complexas e difíceis de otimizar. Isso pode levar a tempos de execução longos e consultas difíceis de depurar. <br>
+ <b>2. Desempenho variável:</b>
+O desempenho do SQL depende de vários fatores, incluindo a estrutura da tabela, a criação de índices e a otimização das consultas. Se a estrutura do banco de dados não for bem projetada ou se os índices não forem usados corretamente, as consultas podem ser lentas. Além disso, o desempenho pode ser afetado pelo volume de dados, especialmente em bancos de dados grandes. <br>
+ <b>3. Rigidez na estrutura:</b>
+O modelo relacional do SQL exige que a estrutura do banco de dados seja definida com antecedência, incluindo tabelas, colunas e relacionamentos. Isso pode ser uma desvantagem quando os requisitos do sistema mudam frequentemente, pois a alteração da estrutura do banco de dados pode ser um processo demorado e complexo. Além disso, pode ser difícil adaptar o SQL a novas necessidades de dados que não se encaixam na estrutura relacional. <br>
+ <b>4. Escalabilidade limitada em certas situações:</b>
+Embora SQL seja escalável em muitos casos, ele pode ter dificuldades com consultas muito complexas ou quando grandes volumes de dados precisam ser processados. A escalabilidade horizontal (distribuindo os dados em vários servidores) pode ser mais desafiadora com SQL do que com outros sistemas de banco de dados, como NoSQL, que são projetados para escalar horizontalmente.</p><br>
+</div>
+ <div class="section-container">
+    <h1> Aplicações </h1>
+    <p> <b>Gerenciamento de Dados:</b> <br> 
+
+<i>Criação e Modificação de Estrutura:</i> SQL permite definir a estrutura do banco de dados, criando tabelas, definindo tipos de dados, chaves primárias e estrangeiras, etc.<br> 
+
+<i>Inserção, Atualização e Exclusão de Dados:</i> Permite adicionar novos registros, modificar dados existentes e remover dados indesejados.<br> 
+
+<i>Consultas e Recuperação de Dados:</i> SQL é fundamental para extrair informações específicas do banco de dados, permitindo realizar buscas complexas e obter resultados precisos.<br> 
+
+<b>Análise de Dados e Inteligência de Negócios:</b><br> 
+
+<i>Relatórios e Dashboards:</i> SQL é utilizado para criar relatórios personalizados, calcular métricas e gerar dashboards que auxiliam na tomada de decisões. <br>
+
+<i>Análise Exploratória de Dados:</i> Permite analisar grandes conjuntos de dados, identificando padrões, tendências e insights relevantes. <br>
+
+<i>Business Intelligence:</i> SQL é usado para extrair dados relevantes de várias fontes e fornecer informações cruciais para os diferentes departamentos da empresa. <br>
+
+<b>Desenvolvimento Web:</b> <br>
+
+<i>Acesso a Dados em Aplicações Web:</i> SQL é a linguagem padrão para interagir com bancos de dados em aplicações web, permitindo o armazenamento e a recuperação de dados dos usuários. <br>
+
+<i>Gerenciamento de Conteúdo:</i> SQL é usado para gerenciar o conteúdo de sites e aplicações web, como artigos, produtos, comentários, etc. <br>
+
+<b>Outras Aplicações:</b> <br>
+
+<i>Sistemas Financeiros:</i> SQL é utilizado em sistemas financeiros para processar transações, gerenciar contas e realizar operações bancárias. <br>
+
+<i>Saúde:</i> SQL é empregado em sistemas de saúde para armazenar e gerenciar dados de pacientes, resultados de exames, histórico médico, etc. <br>
+
+<i>Marketing:</i> SQL é usado para segmentar clientes, analisar campanhas de marketing e otimizar estratégias.</p> <br><br>
+</div>
+</body>
+</html>
